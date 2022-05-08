@@ -33,8 +33,8 @@ const Header = () => {
                     </div>
                     <nav>
                         <ul>
-                            { items.map( item => (
-                                <li> { item.name } </li>
+                            { items.map( (item, valor) => (
+                                <li key={valor}> { item.name } </li>
                               ))
                             }
                         </ul>

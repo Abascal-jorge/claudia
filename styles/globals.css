@@ -75,3 +75,84 @@ main{
 .rosa{
   background-color: rgb(255, 0, 166);
 }
+
+.imagenes-info{
+  position: relative;
+  margin: 80px 0 0 0;
+  text-align: left;
+  height: 600px;
+}
+
+.imagenes-info span:last-child{
+    position: absolute;
+    top: -60%;
+    left: 10%;
+}
+
+.imagenes-description{
+  display: flex;
+  justify-content: space-between;
+}
+
+.libro{
+  margin: -80px auto 0 150px;
+}
+
+.info-img{
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-top: -350px;
+  margin-right: 10px;
+  width: 580px;
+  height: 500px;
+  z-index:2;
+  text-align: left;
+  position: relative;
+}
+
+.info-img::before{
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  background-color: #ff33cc;
+  bottom: -80px;
+  right: -10%;
+  z-index: -2;
+}
+
+.info-img::after{
+  content: "";
+  position: absolute;
+  height: 450px;
+  width: 10%;
+  background-color: #ff33cc;
+  right: -58px;
+  top: 50px;
+  z-index: -2;
+}
+
+.info-img h2{
+  font-size: 60px;
+}
+
+.info-img p{
+  margin: 0;
+  font-weight: 700;
+}
+
+.enlace{
+  padding-top: 40px;
+  position: relative;
+}
+
+.enlace::before{
+  content: " ";
+  position: absolute;
+  bottom: -15px;
+  height: 10px;
+  width: 14%;
+  background-color: blue;
+}
+

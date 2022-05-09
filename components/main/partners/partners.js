@@ -3,21 +3,10 @@ import { AiOutlineApple } from 'react-icons/ai';
 import { SiNike } from 'react-icons/si';
 import { RiPlaystationFill } from 'react-icons/ri';
 import styled from "@emotion/styled";
-import Image from 'next/image'
+import Image from 'next/image';
 
 const Contenido = styled.div`
     text-align: center;
-    .title{
-        font-size: 54px;
-        margin: 10px 0;
-    }
-
-    .info{
-        font-size: 20px;
-        width: 70%;
-        margin: 0 auto;
-        padding: 30px 0;
-    }
 `;
 
 const Partners = () => {

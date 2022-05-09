@@ -5,6 +5,7 @@ import Layouts from '../components/Layouts/layouts'
 import Map from "../components/main/mapa/map";
 import Contactanos from '../components/main/informacion/contactanos/contactanos';
 import Partners from '../components/main/partners/partners';
+import Casos from '../components/main/informacion/casos/casos';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
           <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layouts>
+        <Casos></Casos>
         <Partners></Partners>
         <Contactanos></Contactanos>
         <Map></Map>
